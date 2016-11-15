@@ -13,6 +13,7 @@
 		5251C8E81DDB1BC800E227CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5251C8E61DDB1BC800E227CE /* Main.storyboard */; };
 		5251C8EA1DDB1BC800E227CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5251C8E91DDB1BC800E227CE /* Assets.xcassets */; };
 		5251C8ED1DDB1BC800E227CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5251C8EB1DDB1BC800E227CE /* LaunchScreen.storyboard */; };
+		5251C8F71DDB1BF200E227CE /* YSGaussianView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251C8F61DDB1BF200E227CE /* YSGaussianView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5251C8E91DDB1BC800E227CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5251C8EC1DDB1BC800E227CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5251C8EE1DDB1BC800E227CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5251C8F51DDB1BF200E227CE /* YSGaussianView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSGaussianView.h; sourceTree = "<group>"; };
+		5251C8F61DDB1BF200E227CE /* YSGaussianView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSGaussianView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		5251C8DC1DDB1BC700E227CE /* YSGaussianViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5251C8F41DDB1BF200E227CE /* GaussianView */,
 				5251C8E01DDB1BC800E227CE /* AppDelegate.h */,
 				5251C8E11DDB1BC800E227CE /* AppDelegate.m */,
 				5251C8E31DDB1BC800E227CE /* ViewController.h */,
@@ -77,6 +81,15 @@
 				5251C8DE1DDB1BC700E227CE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5251C8F41DDB1BF200E227CE /* GaussianView */ = {
+			isa = PBXGroup;
+			children = (
+				5251C8F51DDB1BF200E227CE /* YSGaussianView.h */,
+				5251C8F61DDB1BF200E227CE /* YSGaussianView.m */,
+			);
+			path = GaussianView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5251C8E51DDB1BC800E227CE /* ViewController.m in Sources */,
+				5251C8F71DDB1BF200E227CE /* YSGaussianView.m in Sources */,
 				5251C8E21DDB1BC800E227CE /* AppDelegate.m in Sources */,
 				5251C8DF1DDB1BC700E227CE /* main.m in Sources */,
 			);
